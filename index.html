@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="style.css">
+      <title>Portfolio</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  <i class="ri-planet-line"></i> Portfolio
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#" class="nav__link">Home</a></li>
+
+                  <li><a href="#" class="nav__link">About</a></li>
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-pie-chart-line"></i> Overview
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Transactions
+                           </a>
+                        </li>
+
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                        <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                           </div>
+
+                           <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-file-list-line"></i> Documents
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-cash-line"></i> Payments
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-refund-2-line"></i> Refunds
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  
+                  <li><a href="#" class="nav__link">Products</a></li>
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> Profiles
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-lock-line"></i> Accounts
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> Messages
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <li><a href="#" class="nav__link">Contact</a></li>
+                  
+                  <li><a href="#" class="nav__link">
+                    <div class="search">
+                      <div class="icon"></div>
+                      <div class="input">
+                        <input type="text" placeholder="Search" id="mysearch">
+                      </div>
+                      <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+                    </div>
+
+                    <script>
+                        const icon = document.querySelector('.icon');
+                        const search = document.querySelector('.search');
+                        icon.onclick = function(){
+                            search.classList.toggle('active');
+                        }
+                    </script>
+                  </a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+
+
+
+
+<div class="h-body">
+    <div class="h-text">
+        <div class="h-animate">
+            <span class="text first-text">Hi There, <br> I'm Prabhneet Singh<br></span><br>
+            <span class="text third-text">A&nbsp;</span>
+            <span class="text sec-text">Developer</span>
+            <span class="text third-text"><br><br>Let's Built Something <br>Great Together</span>
+        </div>
+        <div class="main-photo">
+            <img src="#" alt="Something went Wrong">
+        </div>
+    </div>
+
+
+
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="about-h1">About me<br></h2>
+            <div class="about-content">
+                <div class="column left">
+                    <div class="text">Experienced <br>Programmer and Front-<br>End Developer with <br>Cyber Security Expertise <span class="typing-2"></span>
+                    <hr class="solid2"></div>
+                    <p>I am a professional programmer and front-end developer with expertise in cyber security. I possess considerable experience in the field, enabling me to effectively protect digital systems from potential threats. Additionally, I am well-versed in several widely used programming languages including C++, Python, SQL, and Django. This extensive knowledge allows me to develop robust and secure software solutions for various applications.</p>
+                    <a href="#">Download CV</a>
+                </div>
+                <div class="column right">
+                    <img src="about.png" alt="error">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container1">
+        <h2 class="about-h1">My Skills</h2>
+        <div class="skill-box">
+            <span class="title">HTML</span>
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">CSS</span>
+            <div class="skill-bar">
+                <span class="skill-per css">
+                    <span class="tooltip">70%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">JavaScript</span>
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">65%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">NodeJS</span>
+            <div class="skill-bar">
+                <span class="skill-per nodejs">
+                    <span class="tooltip">80%</span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+<br><br><br><br><br>
+    <div class="project-text">   
+        <h2 class="about-h1">My Projects</h2>
+    <div class="section">
+      <div class="container-p">
+        <div class="card">
+          <div class="front">
+            <div class="content">
+              <img src="research-img.png" />
+              <h3>RESEARCH</h3>
+            </div>
+          </div>
+          <div class="back">
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+                nam expedita exercitationem?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-p">
+        <div class="card">
+          <div class="front">
+            <div class="content">
+              <img src="design-img.png" />
+              <h3>DESIGN</h3>
+            </div>
+          </div>
+          <div class="back">
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+                nam expedita exercitationem?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-p">
+        <div class="card">
+          <div class="front">
+            <div class="content">
+              <img src="develop-img.png" />
+              <h3>DEVELOP</h3>
+            </div>
+          </div>
+          <div class="back">
+            <div class="content">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+                nam expedita exercitationem?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<br><br><br><br>
+
+<div class="contact-us-text">
+    <div class="formBox">
+            <h2 class="about-h1">Contact Us</h2>
+            <p>You will hear from us at the earliest!</p>
+            <form action="#">
+                <div class="nameInp">
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" placeholder="Full Name" name="name" id="name">
+                </div>
+                <div class="mailInp">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" name="mail" id="mail" placeholder="Email">
+                </div>
+                <div class="phoneInp">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="number" name="phone" id="phone" placeholder="Phone" min="100000" max="9999999999">
+                </div>
+                <div class="queryInp">
+                    <textarea name="query" id="query" cols="30" rows="5"
+                        placeholder="Any comment or your query"></textarea>
+                </div>
+                <div class="submitBtn">
+                    <button id="btn" onclick="notif()">Send</button>
+                </div>
+            </form>
+            <p class="extra">You can also contact us at &#9742; 181-1711-322</p>
+    </div>
+</div>
+
+
+
+    <br>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    /*<===================== HEADER ========================>*/
+    const showMenu = (toggleId, navId) =>{
+   const toggle = document.getElementById(toggleId),
+         nav = document.getElementById(navId)
+
+   toggle.addEventListener('click', () =>{
+       // Add show-menu class to nav menu
+       nav.classList.toggle('show-menu')
+
+       // Add show-icon to show and hide the menu icon
+       toggle.classList.toggle('show-icon')
+   })
+}
+showMenu('nav-toggle','nav-menu') 
+
+
+
+
+
+    /*<===================== BODY ========================>*/ 
+    const text = document.querySelector(".sec-text");
+    const textload = () => {
+        setTimeout(() => {
+            text.textContent = "Developer";
+        }, 0);
+        setTimeout(() => {
+            text.textContent = "Freelancer";
+        }, 4000);
+        setTimeout(() => {
+            text.textContent = "Designer";
+        }, 8000);
+    }
+    textload();
+    setInterval(textload, 12000);
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer>
+      <div class="footer-wrap">
+        <div class="widgetFooter">
+          <h4 class="uppercase">useful links</h4>
+          <ul id="footerUsefulLink">
+            <li title="About US">
+              <span class="usefulLinksIcons">
+                <i class="far fa-id-card"></i>
+              </span>
+              <a>&nbsp;About us</a>
+            </li>
+            <li title="Our Team">
+              <span class="usefulLinksIcons">
+                <i class="far fa-handshake"></i>
+              </span>
+              <a>&nbsp;Our team</a>
+            </li>
+            <li title="Gallery">
+              <span class="usefulLinksIcons">
+                <i class="far fa-images"></i>
+              </span>
+              <a>&nbsp;Gallery</a>
+            </li>
+            <li title="Contact Us">
+              <span class="usefulLinksIcons">
+                <i class="far fa-envelope"></i>
+              </span>
+              <a>&nbsp;Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="widgetFooter" id="footerLogo">
+          <img src="Lineage_OS_Logo.png">
+        </div>
+        <div class="widgetFooter">
+          <h4 class="uppercase">Social media links</h4>
+          <ul id="footerMediaLinks">
+            <li class="media1" title="Facebook">
+              <span class="mediaLinksIcons fb">
+                <i class="fab fa-facebook-square"></i>
+              </span>
+              <a class="fb">&nbsp;facebook</a>
+            </li>
+            <li class="media2" title="Twitter">
+              <span class="mediaLinksIcons twit">
+                <i class="fab fa-twitter-square"></i>
+              </span>
+              <a class="twit">&nbsp;Twitter</a>
+            </li>
+            <li class="media3"  title="Instagram">
+              <span class="mediaLinksIcons insta">
+                <i class="fab fa-instagram"></i>
+              </span>
+              <a class="insta">&nbsp;instagram</a>
+            </li>
+            <li class="media4" title="Github">
+              <span class="mediaLinksIcons git">
+                <i class="fab fa-github-alt"></i>
+              </span>
+              <a class="git">&nbsp;Github</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerCopy">
+        <div class="inb">
+          <p>Copyrights<sup>&copy;</sup> 2018. Developed with <i class="fas fa-heart" style="color: red;"></i> by Prabhneet Singh</p>
+        </div>
+      </div>
+    </footer>
+
+
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
+
